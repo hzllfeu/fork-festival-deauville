@@ -175,6 +175,7 @@ async function showNow(festival) {
     }
     html += `</ul>`;
   }
+  
   box.innerHTML = html;
 }
 

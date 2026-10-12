@@ -1,0 +1,138 @@
+{
+  "name": "Deauville Festival du Rire 2028",
+  "first_day": "2028-06-08",
+  "last_day": "2028-06-10",
+  "venues": [
+    {
+      "name": "Salle Équinoxe",
+      "capacity": 200,
+      "address": "Avenue de la République"
+    },
+    {
+      "name": "Le Phare",
+      "capacity": 80,
+      "address": "End of the jetty"
+    },
+    {
+      "name": "La Grange",
+      "capacity": 25,
+      "address": "Farm road, 2 km from the beach"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Anaïs Roux",
+      "bio": "Dark humour and bright jumpers.",
+      "photo_url": ""
+    },
+    {
+      "name": "Bruno Caillet",
+      "bio": "Host, writer and part-time magician.",
+      "photo_url": ""
+    },
+    {
+      "name": "Chloé Vidal",
+      "bio": "Stories from twenty years of night shifts.",
+      "photo_url": ""
+    },
+    {
+      "name": "Djamel Haddad",
+      "bio": "Stand-up about football, family and failed diets.",
+      "photo_url": ""
+    },
+    {
+      "name": "Émile Faure",
+      "bio": "Sea shanties rewritten as jokes.",
+      "photo_url": ""
+    },
+    {
+      "name": "Fanny Leclerc",
+      "bio": "Clown, improviser and teacher.",
+      "photo_url": ""
+    }
+  ],
+  "performances": [
+    {
+      "kind": "lineup",
+      "title": "Opening Night",
+      "venue": "salle-equinoxe",
+      "start": "2028-06-08T20:00",
+      "duration_minutes": 100,
+      "description": "Three comedians and a host to open the 2028 edition.",
+      "host": "bruno-caillet",
+      "acts": ["anais-roux", "chloe-vidal", "djamel-haddad"]
+    },
+    {
+      "kind": "solo",
+      "title": "Comedy at Sea",
+      "venue": "le-phare",
+      "start": "2028-06-08T22:30",
+      "duration_minutes": 60,
+      "description": "",
+      "artist": "emile-faure",
+      "min_age": 12
+    },
+    {
+      "kind": "solo",
+      "title": "On the Stroke of Midnight",
+      "venue": "le-phare",
+      "start": "2028-06-09T00:30",
+      "duration_minutes": 50,
+      "description": "After midnight: part of the 8 June programme.",
+      "artist": "anais-roux",
+      "min_age": 18
+    },
+    {
+      "kind": "workshop",
+      "title": "Clowning and Improv",
+      "venue": "la-grange",
+      "start": "2028-06-09T10:00",
+      "duration_minutes": 90,
+      "description": "",
+      "teacher": "fanny-leclerc",
+      "max_participants": 30,
+      "participants": ["Jules P.", "Marie T."]
+    },
+    {
+      "kind": "solo",
+      "title": "All Good",
+      "venue": "salle-equinoxe",
+      "start": "2028-06-09T20:30",
+      "duration_minutes": 75,
+      "description": "",
+      "artist": "djamel-haddad",
+      "min_age": 0
+    },
+    {
+      "kind": "lineup",
+      "title": "Lighthouse Line-up",
+      "venue": "le-phare",
+      "start": "2028-06-09T21:00",
+      "duration_minutes": 60,
+      "description": "",
+      "host": "chloe-vidal",
+      "acts": ["emile-faure", "fanny-leclerc"]
+    },
+    {
+      "kind": "workshop",
+      "title": "Writing a Sketch",
+      "venue": "le-phare",
+      "start": "2028-06-10T14:00",
+      "duration_minutes": 120,
+      "description": "",
+      "teacher": "bruno-caillet",
+      "max_participants": 15,
+      "participants": []
+    },
+    {
+      "kind": "solo",
+      "title": "Last Word",
+      "venue": "salle-equinoxe",
+      "start": "2028-06-10T21:00",
+      "duration_minutes": 80,
+      "description": "",
+      "artist": "chloe-vidal",
+      "min_age": 0
+    }
+  ]
+}

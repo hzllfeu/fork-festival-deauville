@@ -1,0 +1,14 @@
+[project]
+name = "deauville-festival"
+version = "0.1.0"
+description = "Deauville Festival du Rire: programme, rules, CLI and web API"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+]
